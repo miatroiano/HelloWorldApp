@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		472F618F2B7A6B9D0063F71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474613922B79B97100F5461C /* Assets.xcassets */; };
+		472F61902B7A6B9F0063F71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474613922B79B97100F5461C /* Assets.xcassets */; };
 		4746138F2B79B96F00F5461C /* HelloWorldAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4746138E2B79B96F00F5461C /* HelloWorldAppApp.swift */; };
 		474613912B79B96F00F5461C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474613902B79B96F00F5461C /* ContentView.swift */; };
 		474613932B79B97100F5461C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474613922B79B97100F5461C /* Assets.xcassets */; };
@@ -240,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				472F618F2B7A6B9D0063F71E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				472F61902B7A6B9F0063F71E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

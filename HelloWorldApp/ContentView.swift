@@ -20,22 +20,20 @@ struct ContentView: View {
         }
     var body: some View {
         VStack {
-            Button("Dark") {
-                
+            Button("Press Me") {
                 self.toggleMode()
             }
             .accentColor(/*@START_MENU_TOKEN@*/.orange/*@END_MENU_TOKEN@*/)
             .font(/*@START_MENU_TOKEN@*/.headline/*@END_MENU_TOKEN@*/)
             .bold()
-            
-            
+
             if(mode == .dark){
                 Image("moon")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 200, height: 200)
-                
             }
+            
             else{
                 Image("sun")
                     .resizable()
@@ -43,8 +41,6 @@ struct ContentView: View {
                     .frame(width: 200, height: 200)
             }
             
-           
-             
         }
         
         .padding()
