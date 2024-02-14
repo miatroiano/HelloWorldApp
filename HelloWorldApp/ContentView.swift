@@ -20,7 +20,7 @@ struct ContentView: View {
         }
     var body: some View {
         VStack {
-            Button("Press Me") {
+            Button("Press now") {
                 self.toggleMode()
             }
             .accentColor(/*@START_MENU_TOKEN@*/.orange/*@END_MENU_TOKEN@*/)
@@ -41,6 +41,11 @@ struct ContentView: View {
                     .frame(width: 200, height: 200)
             }
             
+            NavigationView {
+                NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) { /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Content@*/Text("Navigate")/*@END_MENU_TOKEN@*/ }
+            }
+//            DatePicker(selection: /*@START_MENU_TOKEN@*/.constant(Date())/*@END_MENU_TOKEN@*/, label: { /*@START_MENU_TOKEN@*/Text("Date")/*@END_MENU_TOKEN@*/ })
+
         }
         
         .padding()
